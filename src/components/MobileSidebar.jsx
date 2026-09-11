@@ -1,5 +1,5 @@
 import { FaTimes } from 'react-icons/fa'
-import ThemeToggle from './ThemeToggle'
+import ThemeToggle from './ThemeToggle.jsx'
 
 const navigation = ['Home', 'About', 'Projects', 'Services', 'Contact']
 

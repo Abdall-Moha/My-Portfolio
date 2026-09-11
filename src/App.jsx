@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
-import Navbar from './components/Navbar'
-import MobileSidebar from './components/MobileSidebar'
-import Footer from './components/Footer'
-import Home from './sections/Home'
-import About from './sections/About'
-import Projects from './sections/Projects'
-import Services from './sections/Services'
-import Contact from './sections/Contact'
+import Navbar from './components/Navbar.jsx'
+import MobileSidebar from './components/MobileSidebar.jsx'
+import Footer from './components/Footer.jsx'
+import Home from './sections/Home.jsx'
+import About from './sections/About.jsx'
+import Projects from './sections/Projects.jsx'
+import Services from './sections/Services.jsx'
+import Contact from './sections/Contact.jsx'
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('theme') === 'dark')

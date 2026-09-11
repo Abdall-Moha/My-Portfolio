@@ -1,4 +1,4 @@
-import ProjectCard from '../components/ProjectCard'
+import ProjectCard from '../components/ProjectCard.jsx'
 
 const projects = [
   { title: 'Inventory Management System', image: '/Inventory Pic.png', description: 'A full-stack inventory and sales management system for products, employees, sales, invoices, and business reports.', technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind'], features: ['Product & sales management', 'Invoices and reports', 'Role-based employees'], demo: 'https://inventory-system-demo-six.vercel.app/', code: 'https://github.com/Abdall-Moha/FullStack-Inventory-Management-System' },
