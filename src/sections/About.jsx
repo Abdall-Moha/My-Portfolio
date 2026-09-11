@@ -1,0 +1,9 @@
+const skills = [
+  { title: 'Frontend', text: 'React, JavaScript, Tailwind CSS, responsive UI, API integration' }, { title: 'Backend', text: 'Node.js, Express.js, REST APIs' }, { title: 'Database', text: 'MongoDB, Mongoose' }, { title: 'What I build', text: 'Dashboards, management systems, business applications' },
+]
+
+function About() {
+  return <section id="about" className="scroll-mt-18 bg-white py-18 dark:bg-[#131e2e]"><div className="mx-auto grid max-w-6xl items-center gap-9 px-5 lg:grid-cols-[.7fr_1.3fr] lg:px-8"><div className="mx-auto flex w-full max-w-[280px] items-center justify-center rounded-2xl bg-cyan-50 p-4 shadow-sm dark:bg-cyan-950/30"><img src="/valid_passport_picture.jpeg" alt="Abdullahi working as a developer" className="aspect-[4/5] w-full rounded-xl object-cover object-center shadow-md"/></div><div className="section-enter"><p className="section-label">About me</p><h2 className="section-title">A thoughtful approach to useful software.</h2><p className="section-copy">I enjoy turning real-world requirements into clean, responsive interfaces and reliable full-stack applications. My focus is on experiences that are easy to use and easy to maintain.</p><p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">From dashboards and CRUD systems to authentication flows and API-driven business tools, I build practical applications with attention to the details that matter.</p><div className="mt-6 grid gap-3 sm:grid-cols-2">{skills.map((item) => <div key={item.title} className="rounded-lg border border-slate-200 p-3 dark:border-slate-700"><h3 className="text-sm font-bold text-cyan-700 dark:text-cyan-300">{item.title}</h3><p className="mt-1.5 text-xs leading-5 text-slate-600 dark:text-slate-300">{item.text}</p></div>)}</div></div></div></section>
+}
+
+export default About
