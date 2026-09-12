@@ -56,7 +56,7 @@ const projects = [
       "Live resume preview",
       "Local data persistence",
     ],
-    demo: "https://resumify-taupe.vercel.app/",
+    demo: "https://resumify-iota.vercel.app/",
     code: "https://github.com/Abdall-Moha/Resumify",
   },
   {
