@@ -1,5 +1,5 @@
 import { FaReact } from "react-icons/fa";
-import { FiArrowUpRight } from "react-icons/fi";
+import { FiArrowUpRight, FiDownload } from "react-icons/fi";
 
 function Home() {
   const skills = [
@@ -45,6 +45,14 @@ function Home() {
               className="rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold transition hover:border-cyan-600 hover:text-cyan-700 dark:border-slate-600 dark:hover:border-cyan-400 dark:hover:text-cyan-300"
             >
               Contact me
+            </a>
+            <a
+              href="/Abdullahi-Mohamed-Ali-CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold transition hover:border-cyan-600 hover:text-cyan-700 dark:border-slate-600 dark:hover:border-cyan-400 dark:hover:text-cyan-300"
+            >
+              Download CV <FiDownload />
             </a>
           </div>
           <div className="mt-9 flex flex-wrap gap-2">
